@@ -462,7 +462,7 @@ function geocoder(){
 
 function home_mini_map(){
 	ob_start();
-	include_once("/home/obelis/public_html/wp-content/themes/entad/home_mini_map.php");    
+	include_once(get_stylesheet_directory()."/home_mini_map.php");    
 	$result = ob_get_contents();
 	ob_end_clean(); 	 
 	return $result;

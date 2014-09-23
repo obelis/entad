@@ -574,6 +574,6 @@ if (isset($_GET['activated']) && is_admin())
     }
 }
 
-include('/home/obelis/public_html/wp-content/themes/entad/functions-inc.php');
+include(get_stylesheet_directory().'/functions-inc.php');
 
 ?>
