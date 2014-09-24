@@ -78,6 +78,7 @@
 				$header_box_right = of_get_option('header_box_right');
 				$header_box_left = of_get_option('header_box_left');
 				$logo = of_get_option('logo_upload');
+				include('location_variables.php');
 ?>
 
 <header id="header" class="hidden-xs">
