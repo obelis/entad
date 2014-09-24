@@ -116,9 +116,9 @@
         
         </div>
         <ul>
-            <li><?php echo $display_full_address; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
-            <li><?php echo $display_2_address; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
-            <li><?php echo $display_3_address; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
+            <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
+            <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
+            <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
         </ul>
 		<!-- <div id="header-widget" class="col-md-4 hidden-xs animated fadeInUp">
 		<?php
