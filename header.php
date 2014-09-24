@@ -89,11 +89,11 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="row">
-            <h1 class="animated fadeInDown sm-col-4" style="background-image: url('<?=$logo?>');"><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+            <h1 class="animated fadeInDown col-sm-4" style="background-image: url('<?=$logo?>');"><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a> */ ?>
-            <p class="animated fadeInLeft sm-col-8"><?php bloginfo('description'); ?></p>
+            <p class="animated fadeInLeft col-sm-8"><?php bloginfo('description'); ?></p>
         </div>
 		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
 		<div class="header-text-right pull-left">
