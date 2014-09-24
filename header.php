@@ -89,7 +89,7 @@
 		<?php } ?>
         <div id="header-title" class="pull-left">
             <h1 class="animated fadeInDown">
-            <span class="animated fadeInLeft"><?php bloginfo('description'); ?></span>Test</h1>
+            <span class="animated fadeInLeft"><?php bloginfo('description'); ?></span></h1>
             <a href="<?php bloginfo('home'); ?>">
             <?php // echo of_get_option('title_header','Open <span>Mind</span>'); ?>
             	
@@ -116,13 +116,16 @@
         */ ?>
         
         </div>
+        <a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a>
+        <a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a>
+        <a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a>
 		<div id="header-widget" class="col-md-4 hidden-xs animated fadeInUp">
 		<?php
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('header_widget') ) :
 ?><?php endif;?>
 		</div>
 
-
+        <!-- hide search bar
         <div id="search-header" class="hidden-xs animated fadeInRight">
             <form class="navbar-search" method="get" action="<?php bloginfo('home'); ?>/">
                 <div class="input-group">
@@ -130,9 +133,9 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('header_widget') ) 
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
                         </span>
-                </div><!-- /input-group -->
+                </div>
             </form>
-        </div>
+        </div> end hide search bar -->
     </div> <!-- container -->
 </header> <!-- header -->
 
