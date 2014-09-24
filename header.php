@@ -89,13 +89,13 @@
 		<?php } ?>
         <div id="header-title" class="pull-left">
             <h1 class="animated fadeInDown">
-            <span class="animated fadeInLeft"><?php bloginfo('description'); ?></span></h1>
+            <span class="animated fadeInLeft"><?php bloginfo('name'); ?></span></h1>
             <a href="<?php bloginfo('home'); ?>">
             <?php // echo of_get_option('title_header','Open <span>Mind</span>'); ?>
             	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a>
-            <!-- p class="animated fadeInLeft"><?php bloginfo('description'); ?></p -->
+            <p class="animated fadeInLeft"><?php bloginfo('description'); ?></p>
         </div>
 		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
 		<div class="header-text-right pull-left">
