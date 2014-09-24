@@ -115,14 +115,16 @@
         */ ?>
         
         </div>
-        <a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a>
-        <a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a>
-        <a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a>
-		<div id="header-widget" class="col-md-4 hidden-xs animated fadeInUp">
+        <ul>
+            <li><?php echo $display_full_address; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
+            <li><?php echo $display_2_address; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
+            <li><?php echo $display_3_address; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
+        </ul>
+		<!-- <div id="header-widget" class="col-md-4 hidden-xs animated fadeInUp">
 		<?php
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('header_widget') ) :
 ?><?php endif;?>
-		</div>
+		</div> -->
 
         <!-- hide search bar
         <div id="search-header" class="hidden-xs animated fadeInRight">
