@@ -88,8 +88,7 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="pull-left">
-            <h1 class="animated fadeInDown">
-            <span class="animated fadeInLeft"><?php bloginfo('name'); ?></span></h1>
+            <h1 class="animated fadeInDown"><?php bloginfo('name'); ?></h1>
             <a href="<?php bloginfo('home'); ?>">
             <?php // echo of_get_option('title_header','Open <span>Mind</span>'); ?>
             	
