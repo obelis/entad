@@ -106,15 +106,6 @@
             <a href="<?php echo of_get_option('om_twitter_user','#'); ?>" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
             <a href="<?php echo of_get_option('om_google_user','#'); ?>" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a>
             <a href="<?php echo of_get_option('om_facebook_user','#'); ?>" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
-           
-        <?php /*   
-            <a href="<?php echo of_get_option('om_instagram_user','#'); ?>" class="social-icon soc-instagram animated fadeInDown animation-delay-4"><i class="fa fa-instagram"></i></a>
-            <a href="<?php echo of_get_option('om_pinterest_user','#'); ?>" class="social-icon soc-pinterest animated fadeInDown animation-delay-5"><i class="fa fa-pinterest"></i></a>
-            <a href="<?php echo of_get_option('om_linkedin_user','#'); ?>" class="social-icon soc-linkedin animated fadeInDown animation-delay-6"><i class="fa fa-linkedin"></i></a>
-            <a href="<?php echo of_get_option('om_github_user','#'); ?>" class="social-icon soc-github animated fadeInDown animation-delay-7"><i class="fa fa-github"></i></a>
-        
-        */ ?>
-        
         </div>
         <ul>
             <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
@@ -216,5 +207,10 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('header_widget') ) 
                 </li> <!-- dropdown -->
             </ul> <!-- nav nabvar-nav --> */ ?>
         </div><!-- navbar-collapse -->
+        <div id="social-header" class="hidden-xs push-right">
+            <a href="<?php echo of_get_option('om_twitter_user','#'); ?>" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
+            <!-- <a href="<?php echo of_get_option('om_google_user','#'); ?>" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a> -->
+            <a href="<?php echo of_get_option('om_facebook_user','#'); ?>" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
+        </div>
     </div> <!-- container -->
 </nav> <!-- navbar navbar-default -->
