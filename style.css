@@ -1141,7 +1141,7 @@ img.alignright + p {
     width:100%;
 }
 
-#header-title.row div{
+#header-title div{
     display: table-cell;
 }
 
