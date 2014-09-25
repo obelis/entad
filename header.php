@@ -90,7 +90,7 @@
 		<?php } ?>
         <div id="header-title" class="row">
             <div class="col-md-5">
-            <h1 class="animated fadeInDown" style="background-image: url('<?=$logo?>');" id="main_logo"><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+            <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             </div>
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
