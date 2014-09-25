@@ -89,26 +89,19 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="row">
-            <div class="col-sm-4">
-            <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
-            </div>
+            <h1 class="animated fadeInDown col-sm-4" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a> */ ?>
-            <div class="col-sm-8">
-                <div class="row">
-                <ul>
-                    <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
-                    <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
-                    <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
-                </ul>
-                </div>
-                <div class="row">
-                <p class="animated fadeInLeft" id="header-tagline"><?php bloginfo('description'); ?></p>
-                </div>
-            </div>
+            <p class="animated fadeInLeft col-sm-8" id="header-tagline"><?php bloginfo('description'); ?></p>
         </div>
-        
+        <div id="header-locations">
+            <ul>
+                <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
+                <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
+                <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
+            </ul>
+        </div>
         
 		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
         <div class="header-text-right pull-left">
