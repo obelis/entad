@@ -93,10 +93,19 @@
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a> */ ?>
-            <p class="animated fadeInLeft col-sm-7"><?php bloginfo('description'); ?></p>
+            <div class="col-sm-7">
+                <ul class="row">
+                    <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
+                    <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
+                    <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
+                </ul>
+                <p class="animated fadeInLeft row"><?php bloginfo('description'); ?></p>
+            </div>
         </div>
+        
+        
 		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
-		<div class="header-text-right pull-left">
+        <div class="header-text-right pull-left">
 		<?php echo $header_box_right; ?>
 		</div>
 		<?php } ?>
@@ -105,11 +114,6 @@
             <a href="<?php echo of_get_option('om_google_user','#'); ?>" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a>
             <a href="<?php echo of_get_option('om_facebook_user','#'); ?>" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
         </div> -->
-        <ul>
-            <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
-            <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
-            <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
-        </ul>
 		<!-- <div id="header-widget" class="col-md-4 hidden-xs animated fadeInUp">
 		<?php
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('header_widget') ) :
