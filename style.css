@@ -1142,8 +1142,8 @@ img.alignright + p {
   font-size: 1.3em;
 }
 
-#header-tagline {
-    font-size: 10em;
+p#header-tagline {
+    font-size: 3em;
     font-weight: 700;
 }
 
