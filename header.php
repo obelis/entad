@@ -97,14 +97,14 @@
             </a> */ ?>
             <div class="col-md-7">
                 <div class="row">
-                <ul class="col-md-12">
+                <ul>
                     <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
                     <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
                     <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
                 </ul>
                 </div>
                 <div class="row">
-                <p class="animated fadeInLeft col-md-12"><?php bloginfo('description'); ?></p>
+                <p class="animated fadeInLeft"><?php bloginfo('description'); ?></p>
                 </div>
             </div>
         </div>
