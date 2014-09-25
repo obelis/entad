@@ -1166,6 +1166,14 @@ p#header-tagline {
     right:10px;
 }
 
+#header-locations ul{
+    list-style: none;
+}
+
+#header-locations ul li{
+    text-align: right;
+}
+
 #search-header {
   display: inline-block;
   width: 300px;
