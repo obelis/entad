@@ -1174,12 +1174,8 @@ p#header-tagline {
     text-align: right;
 }
 
-/*#header-locations ul li a{
+#header-locations ul li a .description{
     text-indent: -9999em;
-}*/
-
-#header-locations ul li a span{
-    text-indent: 0em;
 }
 
 #search-header {
