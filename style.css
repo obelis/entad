@@ -1135,6 +1135,14 @@ img.alignright + p {
   font-family: 'Abel', sans-serif;
 }
 
+#header .row {
+    display: table-row;
+}
+
+#header .row div{
+    display: table-cell;
+}
+
 #header-title h1 span {
   color: #ffa800;
 }
