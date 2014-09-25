@@ -1130,19 +1130,21 @@ img.alignright + p {
 }
 #header .container {
   position: relative;
+  display: table;
 }
 #header-title {
   font-family: 'Abel', sans-serif;
 }
 
 #header-title.row {
-    display: table;
+    display: table-row;
     height: 100%;
     width:100%;
 }
 
 #header-title div{
     display: table-cell;
+    float: none;
 }
 
 #header-title h1 span {

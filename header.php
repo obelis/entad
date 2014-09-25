@@ -82,7 +82,7 @@
 ?>
 
 <header id="header" class="hidden-xs">
-    <div class="container-fluid">
+    <div class="container">
 		<?php if(isset($header_box_left) && $header_box_left != ''){ ?>
 		<div class="header-text-left pull-left">
 		<?php echo $header_box_left; ?>
