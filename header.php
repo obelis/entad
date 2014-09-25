@@ -89,11 +89,15 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="row">
-            <h1 class="animated fadeInDown col-sm-4" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
+            <div class="col-sm-4">
+            <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
+            </div>
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a> */ ?>
-            <p class="animated fadeInLeft col-sm-8" id="header-tagline"><?php bloginfo('description'); ?></p>
+            <div class="col-sm-8">
+            <p class="animated fadeInLeft" id="header-tagline"><?php bloginfo('description'); ?></p>
+            </div>
         </div>
         <div id="header-locations">
             <ul>
