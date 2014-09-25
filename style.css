@@ -1135,11 +1135,11 @@ img.alignright + p {
   font-family: 'Abel', sans-serif;
 }
 
-#header .row {
+#header-title.row {
     display: table-row;
 }
 
-#header .row div{
+#header-title.row div{
     display: table-cell;
 }
 
