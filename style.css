@@ -1259,10 +1259,22 @@ a.social-icon:hover {
 }
 
 #main_logo {
+    position: relative;
+}
+
+#main_logo a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+    text-indent: -9999em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    height: 100%;
+    width:100%;
 }
+
 /*-------------------------------------------------------------------*/
 /* Navbar */
 /*-------------------------------------------------------------------*/
