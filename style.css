@@ -1178,6 +1178,10 @@ p#header-tagline {
     text-indent: -9999em;
 }
 
+#header-locations ul li a span{
+    text-indent: 0em;
+}
+
 #search-header {
   display: inline-block;
   width: 300px;
