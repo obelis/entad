@@ -1133,21 +1133,20 @@ img.alignright + p {
 }
 #header-title {
   font-family: 'Abel', sans-serif;
-  /*display: inline-block;*/
 }
-/*#header-title h1 {
-  font-family: 'Abel', sans-serif;
-  word-spacing: -10px;
-  margin: 20px 0 10px 0;
-  font-size: 3.2em;
-  color: #fff;
-}*/
+
 #header-title h1 span {
   color: #ffa800;
 }
 #header-title p {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
+
+#header-tagline {
+    font-size: 3em;
+    font-weight: 700;
+}
+
 #search-header {
   display: inline-block;
   width: 300px;

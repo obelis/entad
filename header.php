@@ -104,7 +104,7 @@
                 </ul>
                 </div>
                 <div class="row">
-                <p class="animated fadeInLeft"><?php bloginfo('description'); ?></p>
+                <p class="animated fadeInLeft" id="header-tagline"><?php bloginfo('description'); ?></p>
                 </div>
             </div>
         </div>
