@@ -102,8 +102,8 @@
         <div id="header-locations">
             <ul>
                 <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus">Google+ Main Location<span class="fa fa-google-plus"></span></a></li>
-                <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus fa fa-google-plus">Google+ Second Location<span class="fa fa-google-plus"></span></a></li>
-                <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus fa fa-google-plus">Google+ Third Location<span class="fa fa-google-plus"></span></a></li>
+                <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus">Google+ Second Location<span class="fa fa-google-plus"></span></a></li>
+                <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus">Google+ Third Location<span class="fa fa-google-plus"></span></a></li>
             </ul>
         </div>
         
