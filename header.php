@@ -89,13 +89,13 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="row">
-            <div class="col-md-5">
+            <div class="col-sm-4">
             <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             </div>
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a> */ ?>
-            <div class="col-md-7">
+            <div class="col-sm-8">
                 <div class="row">
                 <ul>
                     <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>

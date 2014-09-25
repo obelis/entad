@@ -1265,7 +1265,7 @@ a.social-icon:hover {
 }
 
 #main_logo a {
-    background-position: center center;
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
     text-indent: -9999em;
