@@ -1143,7 +1143,8 @@ img.alignright + p {
 }
 
 p#header-tagline {
-    font-size: 3em;
+    font-size: 2em;
+    line-height: 2.2em;
     font-weight: 700;
 }
 
