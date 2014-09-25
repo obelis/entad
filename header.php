@@ -89,17 +89,23 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="row">
-            <h1 class="animated fadeInDown col-sm-5" style="background-image: url('<?=$logo?>');" id="main_logo"><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+            <div class="col-sm-5">
+            <h1 class="animated fadeInDown" style="background-image: url('<?=$logo?>');" id="main_logo"><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+            </div>
             <?php /* <a href="<?php bloginfo('home'); ?>">   	
 				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
             </a> */ ?>
             <div class="col-sm-7">
-                <ul class="row">
+                <div class="row">
+                <ul>
                     <li><?php echo $main_street; ?><a href="<?php echo $main_g; ?>" rel="publisher">Google+ Main Location</a></li>
                     <li><?php echo $second_street; ?><a href="<?php echo $second_g; ?>" rel="publisher">Google+ Second Location</a></li>
                     <li><?php echo $third_street; ?><a href="<?php echo $third_g; ?>" rel="publisher">Google+ Third Location</a></li>
                 </ul>
-                <p class="animated fadeInLeft row"><?php bloginfo('description'); ?></p>
+                </div>
+                <div class="row">
+                <p class="animated fadeInLeft"><?php bloginfo('description'); ?></p>
+                </div>
             </div>
         </div>
         
