@@ -1174,6 +1174,10 @@ p#header-tagline {
     text-align: right;
 }
 
+#header-locations ul li a{
+    text-indent: -9999em;
+}
+
 #search-header {
   display: inline-block;
   width: 300px;
