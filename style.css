@@ -1136,7 +1136,9 @@ img.alignright + p {
 }
 
 #header-title.row {
-    display: table-row;
+    display: table;
+    height: 100%;
+    width:100%;
 }
 
 #header-title.row div{
