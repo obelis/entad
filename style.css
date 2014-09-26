@@ -1158,6 +1158,10 @@ img.alignright + p {
     text-align: center;
 }
 
+#header-tagline p {
+    margin: 0px;
+}
+
 #header-locations {
     position: absolute;
     top:10px;
@@ -1305,8 +1309,8 @@ a.social-icon:hover {
 
 #main_logo {
     position: relative;
-    width:100%;
-    height: 100%;
+    width: 100%;
+    height: 200px;
 }
 
 #main_logo a {
