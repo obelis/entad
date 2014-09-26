@@ -1177,6 +1177,9 @@ p#header-tagline {
 #header-locations ul li a .description{
     display: inline-block;
     text-indent: -9999em;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
     clip: rect(0px 0px 0px 0px);
 }
 
