@@ -1151,13 +1151,14 @@ img.alignright + p {
 }
 #header-title p {
   font-size: 1.3em;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 p#header-tagline {
     font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
+    text-align: center;
 }
 
 #header-locations {

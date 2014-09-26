@@ -90,13 +90,10 @@
 		<?php } ?>
         <div id="header-title" class="row">
             <div class="col-sm-4">
-            <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
+                <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             </div>
-            <?php /* <a href="<?php bloginfo('home'); ?>">   	
-				<img src="<?=$logo?>" class="<!-- img-responsive --> <?=$logo_postion;?>" id="main_logo" />
-            </a> */ ?>
-            <div class="col-sm-8">
-            <p class="animated fadeInLeft" id="header-tagline"><?php bloginfo('description'); ?></p>
+            <div class="col-sm-4">
+                <p class="animated fadeInLeft" id="header-tagline"><?php bloginfo('description'); ?></p>
             </div>
         </div>
         <div id="header-locations">
@@ -106,7 +103,7 @@
                 <li><?php echo $second_street . ", " . $second_city; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
                 <li><?php echo $third_street . ", " . $third_city; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
             </ul>
-            <a href="/walk-hearing-aid-hours/" class="blog-post-link walk-in-btn">For Walk-In Hours Click Here</a>
+            <a href="/walk-hearing-aid-hours/" id="header-walkin">For Walk-In Hours Click Here</a>
         </div>
         
 		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
