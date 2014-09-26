@@ -1177,6 +1177,7 @@ p#header-tagline {
 #header-locations ul li a .description{
     display: inline-block;
     text-indent: -9999em;
+    clip: rect(0px 0px 0px 0px);
 }
 
 #search-header {
