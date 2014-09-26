@@ -92,18 +92,18 @@
             <div class="col-sm-4">
                 <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             </div>
-            <div class="col-sm-4">
-                <p class="animated fadeInLeft" id="header-tagline"><?php bloginfo('description'); ?></p>
+            <div class="col-sm-4" id="header-tagline">
+                <p class="animated fadeInLeft"><?php bloginfo('description'); ?></p>
             </div>
-        </div>
-        <div id="header-locations">
-            <h3>3 Locations To Serve You</h2>
-            <ul>
-                <li><?php echo $main_street . ", " . $main_city; ?><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Main Location</span><span class="fa fa-google-plus"></span></a></li>
-                <li><?php echo $second_street . ", " . $second_city; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
-                <li><?php echo $third_street . ", " . $third_city; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
-            </ul>
-            <a href="/walk-hearing-aid-hours/" id="header-walkin">For Walk-In Hours Click Here</a>
+            <div class="col-sm-4" id="header-locations">
+                <h3>3 Locations To Serve You</h2>
+                <ul>
+                    <li><?php echo $main_street . ", " . $main_city; ?><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Main Location</span><span class="fa fa-google-plus"></span></a></li>
+                    <li><?php echo $second_street . ", " . $second_city; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
+                    <li><?php echo $third_street . ", " . $third_city; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
+                </ul>
+                <a href="/walk-hearing-aid-hours/" id="header-walkin">For Walk-In Hours Click Here</a>
+            </div>
         </div>
         
 		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
