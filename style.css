@@ -1163,7 +1163,7 @@ img.alignright + p {
 }
 
 #header-locations {
-    float: right;
+    display: inline-block;
     text-align: right;
 }
 
