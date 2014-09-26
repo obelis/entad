@@ -1164,14 +1164,12 @@ p#header-tagline {
     position: absolute;
     top:10px;
     right:10px;
+    text-align: right;
 }
 
 #header-locations ul{
     list-style: none;
-}
-
-#header-locations ul li{
-    text-align: right;
+    padding: 0px;
 }
 
 #header-locations ul li a .description{
@@ -1181,6 +1179,13 @@ p#header-tagline {
     height: 0px;
     width: 0px;
     clip: rect(0px 0px 0px 0px);
+}
+
+#header-walkin {
+    color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #c1852f;
 }
 
 #search-header {
