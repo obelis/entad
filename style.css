@@ -1151,7 +1151,7 @@ img.alignright + p {
 }
 
 #header-tagline {
-    font-size: 1.8em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 700;
     text-align: center;
@@ -1168,6 +1168,7 @@ img.alignright + p {
 #header-locations ul{
     list-style: none;
     padding: 0px;
+    font-size: 1.8em;
 }
 
 #header-locations ul li a .description{
@@ -1184,6 +1185,7 @@ img.alignright + p {
     box-sizing: border-box;
     padding: 5px;
     background-color: #c1852f;
+    font-size: 2em;
 }
 
 #search-header {
