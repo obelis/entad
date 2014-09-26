@@ -1141,7 +1141,7 @@ img.alignright + p {
     height: 100%;
 }
 
-#header-title div{
+#header-title > div{
     display: table-cell;
     vertical-align: middle;
     float: none;
@@ -1163,7 +1163,7 @@ img.alignright + p {
 }
 
 #header-locations {
-    display: inline-block;
+    float: right;
     text-align: right;
 }
 
