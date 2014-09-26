@@ -1305,6 +1305,11 @@ a.social-icon:hover {
   background-color: #000;
 }
 
+#main_logo_container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 #main_logo {
     position: relative;
     width: 100%;

@@ -89,7 +89,7 @@
 		</div>
 		<?php } ?>
         <div id="header-title" class="row">
-            <div class="col-sm-4">
+            <div id="main_logo_container" class="col-sm-4">
                 <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             </div>
             <div class="col-sm-4" id="header-tagline">
