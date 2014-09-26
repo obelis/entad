@@ -93,17 +93,17 @@
                 <h1 class="animated fadeInDown" id="main_logo"><a href="<?php bloginfo('home'); ?>" style="background-image: url('<?=$logo?>');"><?php bloginfo('name'); ?></a></h1>
             </div>
             <div class="col-sm-4" id="header-tagline">
-                <p class="animated fadeInLeft"><?php bloginfo('description'); ?></p>
+                <p class="animated fadeInDown animation-delay-1"><?php bloginfo('description'); ?></p>
             </div>
             <div class="col-sm-4">
                 <div id="header-locations">
-                    <h3>3 Locations To Serve You</h2>
+                    <h3 class="animated fadeInDown animation-delay-3">3 Locations To Serve You</h2>
                     <ul>
-                        <li><?php echo $main_street . ", " . $main_city; ?><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Main Location</span><span class="fa fa-google-plus"></span></a></li>
-                        <li><?php echo $second_street . ", " . $second_city; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
-                        <li><?php echo $third_street . ", " . $third_city; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
+                        <li class="animated fadeInRight animation-delay-1"><?php echo $main_street . ", " . $main_city; ?><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Main Location</span><span class="fa fa-google-plus"></span></a></li>
+                        <li class="animated fadeInRight animation-delay-2"><?php echo $second_street . ", " . $second_city; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
+                        <li class="animated fadeInRight animation-delay-3"><?php echo $third_street . ", " . $third_city; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
                     </ul>
-                    <a href="/walk-hearing-aid-hours/" id="header-walkin">For Walk-In Hours Click Here</a>
+                    <a href="/walk-hearing-aid-hours/" id="header-walkin" class="animated fadeInRight animation-delay-4">For Walk-In Hours Click Here</a>
                 </div>
             </div>
         </div>
