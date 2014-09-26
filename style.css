@@ -1168,7 +1168,7 @@ img.alignright + p {
 #header-locations ul{
     list-style: none;
     padding: 0px;
-    font-size: 1.8em;
+    font-size: 1em;
 }
 
 #header-locations ul li a .description{
@@ -1185,7 +1185,8 @@ img.alignright + p {
     box-sizing: border-box;
     padding: 5px;
     background-color: #c1852f;
-    font-size: 2em;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
 #search-header {
