@@ -1308,7 +1308,7 @@ a.social-icon:hover {
 #main_logo {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 
 #main_logo a {
