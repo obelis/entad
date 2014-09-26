@@ -1131,6 +1131,8 @@ img.alignright + p {
 #header .container {
   position: relative;
   display: table;
+  margin:0px;
+  padding: 0px;
 }
 #header-title {
   font-family: 'Abel', sans-serif;
