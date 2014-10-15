@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <p id="site-copyright" class="col-sm-6">&copy; <?php echo date("Y"); ?> <a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a>, inc. All rights reserved.</p>
+            <p id="site-copyright" class="col-sm-6">&copy; <?php echo date("Y"); ?> <a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a> All rights reserved.</p>
             <p id="site-creator" class="col-sm-6">Web Site by <a href="http://www.obelismedia.com/" rel="nofollow">Obelis Media</a></p>
         </div>
     </div>
