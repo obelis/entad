@@ -1,5 +1,7 @@
 <?php
 
+include('location_variables.php');
+
 /*-----------------------------------------*/
 /* Cargar Panel de Opciones
 /*-----------------------------------------*/

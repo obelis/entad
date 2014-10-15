@@ -159,7 +159,7 @@
                 <div class="row">
 				<div class="col-md-8">
 				<h2 class="section-title">Our Locations</h2>
-            <?php	include 'home_mini_map.php'; ?>	
+                <?php echo do_shortcode('[map]'); ?>
                 </div>
 				<div class="col-md-4">
                 <h2 class="section-title">Call us today</h2>
@@ -177,7 +177,7 @@
     $third_location_url = strtolower($third_location_url);
 ?>
 <strong>3 Locations, One Number</strong><br>
-<a href="tel:+<?php echo $calling_link; ?>"><?php echo $main_phone_number; ?></a>
+<a href="tel:+1<?php echo $calling_link; ?>"><?php echo $main_phone_number; ?></a>
 </p>
 <p class="lead">
     <a href="<?php echo $main_location_url; ?>"><?php echo $main_street; ?><br><?php echo $main_city . ', ' . $main_state; ?></a>
