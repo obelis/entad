@@ -167,17 +167,26 @@
     $calling_link = "3029980300,3";
 ?>
 <p class="lead">
+<?php // Location HREF Links
+    $location_url_prefix = "/our-location/hearing-aids-";
+    $main_location_url = $location_url_prefix . $main_city . '-' . $main_state . '-' . $main_zip . '/';
+    $main_location_url = strtolower($main_location_url);
+    $second_location_url = $location_url_prefix . $second_city . '-' . $second_state . '-' . $second_zip . '/';
+    $second_location_url = strtolower($second_location_url);
+    $third_location_url = $location_url_prefix . $third_city . '-' . $third_state . '-' . $third_zip . '/';
+    $third_location_url = strtolower($third_location_url);
+?>
 <strong>3 Locations, One Number</strong><br>
 <a href="tel:+<?php echo $calling_link; ?>"><?php echo $main_phone_number; ?></a>
 </p>
 <p class="lead">
-    <a href="/our-location/hearing-aids-<?php echo $main_city . '-' . $main_state . '-' . $main_zip; ?>/"><?php echo $main_street; ?><br><?php echo $main_city . ', ' . $main_state; ?></a>
+    <a href="<?php echo $main_location_url; ?>"><?php echo $main_street; ?><br><?php echo $main_city . ', ' . $main_state; ?></a>
 </p>
 <p class="lead">
-    <a href="/our-location/hearing-aids-<?php echo $second_city . '-' . $second_state . '-' . $second_zip; ?>/"><?php echo $second_street; ?><br><?php echo $second_city . ', ' . $second_state; ?></a>
+    <a href="<?php echo $second_location_url; ?>"><?php echo $second_street; ?><br><?php echo $second_city . ', ' . $second_state; ?></a>
 </p>
 <p class="lead">
-    <a href="/our-location/hearing-aids-<?php echo $third_city . '-' . $third_state . '-' . $third_zip; ?>/"><?php echo $third_street; ?><br><?php echo $third_city . ', ' . $third_state; ?></a>
+    <a href="<?php echo $third_location_url; ?>"><?php echo $third_street; ?><br><?php echo $third_city . ', ' . $third_state; ?></a>
 </p>
 				</div>
                 </div>

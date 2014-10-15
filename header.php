@@ -99,42 +99,23 @@
                 <div id="header-locations">
                     <h3 class="animated fadeInDown animation-delay-3">3 Locations To Serve You</h2>
                     <ul>
-                        <li class="animated fadeInRight animation-delay-1"><?php echo $main_street . ", " . $main_city; ?><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Main Location</span><span class="fa fa-google-plus"></span></a></li>
-                        <li class="animated fadeInRight animation-delay-2"><?php echo $second_street . ", " . $second_city; ?><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
-                        <li class="animated fadeInRight animation-delay-3"><?php echo $third_street . ", " . $third_city; ?><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
+                        <?php // Location HREF Links
+                            $location_url_prefix = "/our-location/hearing-aids-";
+                            $main_location_url = $location_url_prefix . $main_city . '-' . $main_state . '-' . $main_zip . '/';
+                            $main_location_url = strtolower($main_location_url);
+                            $second_location_url = $location_url_prefix . $second_city . '-' . $second_state . '-' . $second_zip . '/';
+                            $second_location_url = strtolower($second_location_url);
+                            $third_location_url = $location_url_prefix . $third_city . '-' . $third_state . '-' . $third_zip . '/';
+                            $third_location_url = strtolower($third_location_url);
+                        ?>
+                        <li class="animated fadeInRight animation-delay-1"><a href="<?php echo $main_location_url ?>"><?php echo $main_street . ", " . $main_city; ?></a><a href="<?php echo $main_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Main Location</span><span class="fa fa-google-plus"></span></a></li>
+                        <li class="animated fadeInRight animation-delay-2"><a href="<?php echo $second_location_url; ?>"><?php echo $second_street . ", " . $second_city; ?></a><a href="<?php echo $second_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Second Location</span><span class="fa fa-google-plus"></span></a></li>
+                        <li class="animated fadeInRight animation-delay-3"><a href="<?php echo $third_location_url; ?>"><?php echo $third_street . ", " . $third_city; ?></a><a href="<?php echo $third_g; ?>" rel="publisher" class="social-icon soc-google-plus"><span class="description">Google+ Third Location</span><span class="fa fa-google-plus"></span></a></li>
                     </ul>
                     <a href="/walk-hearing-aid-hours/" id="header-walkin" class="animated fadeInRight animation-delay-4">For Walk-In Hours Click Here</a>
                 </div>
             </div>
         </div>
-        
-		<?php if(isset($header_box_right) && $header_box_right != ''){ ?>
-        <div class="header-text-right pull-left">
-		<?php echo $header_box_right; ?>
-		</div>
-		<?php } ?>
-        <!-- <div id="social-header" class="hidden-xs">
-            <a href="<?php echo of_get_option('om_twitter_user','#'); ?>" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
-            <a href="<?php echo of_get_option('om_google_user','#'); ?>" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a>
-            <a href="<?php echo of_get_option('om_facebook_user','#'); ?>" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
-        </div> -->
-		<!-- <div id="header-widget" class="col-md-4 hidden-xs animated fadeInUp">
-		<?php
-if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('header_widget') ) :
-?><?php endif;?>
-		</div> -->
-
-        <!-- hide search bar
-        <div id="search-header" class="hidden-xs animated fadeInRight">
-            <form class="navbar-search" method="get" action="<?php bloginfo('home'); ?>/">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search..." name="s" id="s">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                        </span>
-                </div>
-            </form>
-        </div> end hide search bar -->
     </div> <!-- container -->
 </header> <!-- header -->
 
