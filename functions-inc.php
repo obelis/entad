@@ -446,6 +446,7 @@ function geocoder(){
 
 
 	// writes geocodes to wp options database
+/*
 	update_option( 'lat1', $lat1 );
 	update_option( 'lon1', $lon1 );
 	
@@ -458,6 +459,7 @@ function geocoder(){
 	update_option( 'lat4', $lat4 );
 	update_option( 'lon4', $lon4 );
 	
+*/
 	
 
 }
