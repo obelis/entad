@@ -195,9 +195,8 @@
             </ul> <!-- nav nabvar-nav --> */ ?>
         </div><!-- navbar-collapse -->
         <div id="social-header" class="hidden-xs">
-            <a href="<?php echo of_get_option('om_twitter_user','#'); ?>" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
-            <!-- <a href="<?php echo of_get_option('om_google_user','#'); ?>" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a> -->
-            <a href="<?php echo of_get_option('om_facebook_user','#'); ?>" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/ENTAllergyOfDE" class="social-icon soc-twitter animated fadeInDown animation-delay-1" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/pages/ENT-Allergy-of-Delaware/400863850015950" class="social-icon soc-facebook animated fadeInDown animation-delay-3" target="_blank"><i class="fa fa-facebook"></i></a>
         </div>
     </div> <!-- container -->
 </nav> <!-- navbar navbar-default -->
