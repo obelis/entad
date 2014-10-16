@@ -1447,8 +1447,9 @@ a.social-icon:hover {
 /* Carousel Mind */
 /*-------------------------------------------------------------------*/
 .carousel-mind {
-  background-image: url(img/back.jpg);
-  background-size: cover;
+    background-image: url(img/wilmington-de-background.jpg);
+    background-size: cover;
+    background-position: right top;
 }
 .carousel-mind-back-2 {
   background-image: url(img/back2.jpg);
